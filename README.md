@@ -22,7 +22,7 @@ My 24h-Hackathon project focuses on the raw data from the traffic accident recor
 
 <p align="center">
 Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="<img alt="Chicago Traffic Accident Analysis-page-00001.jpg" src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00001.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">"/>
 <br />
 <br />
 Select the disk:  <br/>
