@@ -42,8 +42,8 @@ Confirm your selection:  <br/>
 <br />
 Wait for aligned pages: <br />
 <p align="center">
-  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00006.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="50%">
-  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00007.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="50%">
+  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00006.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="48%">
+  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00007.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="48%">
 </p>
 <br />
 <br />
