@@ -26,16 +26,19 @@ Launch the utility: <br/>
 <br />
 <br />
 Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00002.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">"/>
 <br />
 <br />
 Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00003.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">"/>
 <br />
 <br />
 Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00004.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">"/>
 <br />
+ <br />
+ <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00005.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">"/>
+ <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
