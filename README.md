@@ -41,16 +41,34 @@ Confirm your selection:  <br/>
  <br />
 <br />
 Wait for aligned pages: <br />
-  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00006.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="48%">
-  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00007.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="48%">
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00006.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="48%">
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00007.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="48%">
 <br />
 <br />
 Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00008.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00009.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
+Launch the utility: <br/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00010.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00011.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00012.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00013.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
 </p>
 
 <!--
