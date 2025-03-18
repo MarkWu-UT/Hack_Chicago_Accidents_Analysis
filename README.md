@@ -40,8 +40,11 @@ Confirm your selection:  <br/>
  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00005.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
  <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Wait for aligned pages: <br />
+<p align="center">
+  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00006.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="45%">
+  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00007.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="45%">
+</p>
 <br />
 <br />
 Sanitization complete:  <br/>
