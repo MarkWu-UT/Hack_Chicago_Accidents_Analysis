@@ -69,6 +69,18 @@ Observe the wiped disk:  <br/>
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00013.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
+Observe the wiped disk:  <br/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00014.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00015.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00016.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
+<br />
+<br />
 </p>
 
 <!--
