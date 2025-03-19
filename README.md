@@ -30,63 +30,63 @@ My 24h-Hackathon project focuses on the raw data from the traffic accident recor
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+<br/>
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00001.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Select the disk:  <br/>
+<br/>
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00002.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Enter the number of passes: <br/>
+<br/>
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00003.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Confirm your selection:  <br/>
+<br/>
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00004.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
  <br />
  <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00005.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
  <br />
 <br />
-Wait for aligned pages: <br />
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00006.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="48%">
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00007.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm" width="48%">
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br/>
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00008.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00009.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Launch the utility: <br/>
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00010.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00011.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00012.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00013.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00014.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00015.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
-Observe the wiped disk:  <br/>
+<br />
 <img src="https://github.com/MarkWu-UT/Hack_Chicago_Accidents_Analysis/blob/main/Chicago%20Traffic%20Accident%20Analysis-page-00016.jpg?raw=true" data-hpc="true" class="Box-sc-g0xbh4-0 fzFXnm">
 <br />
 <br />
