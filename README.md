@@ -6,8 +6,10 @@ My 24h-Hackathon project focuses on the raw data from the traffic accident recor
 <h2>Quick Takeaway</h2>
 
 - <b>Cause Type: Accidents are mainly due to driver's behaviors during. For other reasons, we also see environmental triggers like sudden move of animals, evasive actions from animals, objects and nonmotorists.</b>
+
 - <b>Locations: Clear pattern/segmentation by the Old Route 66 across the city: Higher accident density from the upper city, and from the downtown area.
 </b>
+
 - <b>Cost and Injury: More than 60% damage cost are over $1500, and 90% of the injury type did not cause injury, meaning that most of the crashes were just the damage to the vehicle.
 </b>
 
