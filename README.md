@@ -13,6 +13,14 @@ My 24h-Hackathon project focuses on the raw data from the traffic accident recor
 - <b>Cost and Injury: More than 60% damage cost are over $1500, and 90% of the injury type did not cause injury, meaning that most of the crashes were just the damage to the vehicle.
 </b>
 
+- <b> Severe Injury (Fatal / Incapacitating injuries): 20-50 / 350-600 cases/quarter
+</b>
+
+- <b> Seasonal pattern: For severe injury types, seasonal peaks happen in Q2 and Q3, probably due to the traveling seasons (Spring-Summer).
+</b>
+
+- <b> Lighting condition: Severe injury happened mostly in the dark but lighted road conditions, mainly due to the tiredness/carelessness of drivers.
+</b>
 
 <h2>Languages and Utilities Used</h2>
 
