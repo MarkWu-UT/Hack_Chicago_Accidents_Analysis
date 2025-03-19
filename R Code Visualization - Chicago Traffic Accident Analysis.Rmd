@@ -1,0 +1,148 @@
+---
+title: "Chicago Traffic Accident Visualization"
+output: html_document
+date: "2024-10-25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## most severe injury
+```{r}
+# read in data
+library(readr)
+crash_data <- read_csv("crash_data.csv")
+
+# Check columns
+str(crash_data)
+```
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+
+# Injury type: check unique values and filter them out
+unique(crash_data$MOST_SEVERE_INJURY)
+filtered_data1 <- crash_data %>% filter(!MOST_SEVERE_INJURY %in% c("2", "0","-87.81704561",NA))
+
+# bar plot: injury
+ggplot(filtered_data1, aes(x = factor(MOST_SEVERE_INJURY))) +
+  geom_bar(fill = "steelblue") +
+  geom_text(stat = 'count', aes(label = ..count..), vjust = -0.5) + 
+  labs(title = "Crash Count by Injury Type",
+       x = "Injury Type",
+       y = "Count") + 
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# damage:~
+unique(crash_data$DAMAGE)
+filtered_data2 <- crash_data %>% filter(DAMAGE %in% c("OVER $1,500", "$501 - $1,500","$500 OR LESS"))
+
+# Bar plot: damage
+ggplot(filtered_data2, aes(x = DAMAGE)) +
+  geom_bar(fill = "steelblue") +
+  geom_text(stat = 'count', aes(label = ..count..), vjust = -0.5) + 
+  labs(title = "Crash Count by damage cost",
+       x = "Damage cost",
+       y = "Count") + 
+  theme_minimal() + 
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+
+
+```
+
+```{r}
+# prim_contributory: ~; exclude abnormal values
+unique(crash_data$PRIM_CONTRIBUTORY_CAUSE)
+filtered_data3 <- crash_data %>% filter(!PRIM_CONTRIBUTORY_CAUSE %in% c("04/17/2022 02:23:00 PM",NA,"0","2"))
+
+# Define the groups based on the prim_cause column
+filtered_data3 <- filtered_data3 %>%
+  mutate(Group = case_when(
+    # Driver Behavior
+    PRIM_CONTRIBUTORY_CAUSE %in% c("FOLLOWING TOO CLOSELY", "FAILING TO REDUCE SPEED TO AVOID CRASH", 
+                 "IMPROPER TURNING/NO SIGNAL", "IMPROPER OVERTAKING/PASSING",
+                 "FAILING TO YIELD RIGHT-OF-WAY", "IMPROPER LANE USAGE",
+                 "EXCEEDING AUTHORIZED SPEED LIMIT", 
+                 "OPERATING VEHICLE IN ERRATIC, RECKLESS, CARELESS, NEGLIGENT OR AGGRESSIVE MANNER",
+                 "IMPROPER BACKING",
+                 "DRIVING ON WRONG SIDE/WRONG WAY",
+                 "RELATED TO BUS STOP") ~ "Driver Behavior",
+
+    # Distractions
+    PRIM_CONTRIBUTORY_CAUSE %in% c("DISTRACTION - FROM INSIDE VEHICLE", "DISTRACTION - FROM OUTSIDE VEHICLE",
+                 "DISTRACTION - OTHER ELECTRONIC DEVICE (NAVIGATION DEVICE, DVD PLAYER, ETC.)",
+                 "TEXTING", "CELL PHONE USE OTHER THAN TEXTING") ~ "Distractions",
+
+    # Environmental Factors
+    PRIM_CONTRIBUTORY_CAUSE %in% c("WEATHER", "VISION OBSCURED (SIGNS, TREE LIMBS, BUILDINGS, ETC.)", 
+                 "ROAD ENGINEERING/SURFACE/MARKING DEFECTS", "ROAD CONSTRUCTION/MAINTENANCE",
+                 "EQUIPMENT - VEHICLE CONDITION",
+                 "OBSTRUCTED CROSSWALKS") ~ "Environmental Factors",
+
+    # Failure to Observe Traffic Rules
+    PRIM_CONTRIBUTORY_CAUSE %in% c("DISREGARDING TRAFFIC SIGNALS", "DISREGARDING STOP SIGN", 
+                 "DISREGARDING YIELD SIGN", "DISREGARDING ROAD MARKINGS","DISREGARDING OTHER TRAFFIC SIGNS",
+                 "TURNING RIGHT ON RED", "TURNING LEFT ON RED", 
+                 "MOTORCYCLE ADVANCING LEGALLY ON RED LIGHT",
+                 "BICYCLE ADVANCING LEGALLY ON RED LIGHT",
+                 "PASSING STOPPED SCHOOL BUS") ~ "Failure to Observe Traffic Rules",
+
+    # Alcohol and Substance Use
+    PRIM_CONTRIBUTORY_CAUSE %in% c("UNDER THE INFLUENCE OF ALCOHOL/DRUGS (USE WHEN ARREST IS EFFECTED)", 
+                 "HAD BEEN DRINKING (USE WHEN ARREST IS NOT MADE)") ~ "Alcohol and Substance Use",
+
+    # Physical Condition or Experience of Driver
+    PRIM_CONTRIBUTORY_CAUSE %in% c("DRIVING SKILLS/KNOWLEDGE/EXPERIENCE", 
+                 "PHYSICAL CONDITION OF DRIVER") ~ "Physical Condition or Experience of Driver",
+
+    # other
+    PRIM_CONTRIBUTORY_CAUSE %in% c("UNABLE TO DETERMINE", "NOT APPLICABLE", 
+                 "EVASIVE ACTION DUE TO ANIMAL, OBJECT, NONMOTORIST", 
+                 "ANIMAL", "EXCEEDING SAFE SPEED FOR CONDITIONS"
+                 ) ~ "Other"
+
+  ))
+
+
+
+```
+
+```{r}
+# count by group
+reason_count <- filtered_data3 %>%
+  count(Group) %>%
+  mutate(percentage = round((n/sum(n)*100),3))
+
+# general pie chart
+ggplot(reason_count, aes(x = "", y = n, fill = Group)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar(theta = "y") +
+  labs(title = "Distribution of Causes by Group") +
+  scale_fill_brewer(palette = "Set3") +
+  theme_void() +
+  theme(legend.position = "right")
+
+# since Other part takes a large section, building another pie chart to dive-in
+# filter and count
+other_data <- subset(filtered_data3, Group == "Other")
+other_reason_count <- other_data %>%
+  count(PRIM_CONTRIBUTORY_CAUSE) %>%
+  mutate(percentage = round((n/sum(n)*100),3))
+
+# find out that "useless" values took the most percentage of it
+# build a dive-in pie chart without NOT APPLICABLE and UNABLE TO DETERMINE
+clean_other_reason_count <- other_reason_count %>%
+  filter(!PRIM_CONTRIBUTORY_CAUSE %in% c("NOT APPLICABLE","UNABLE TO DETERMINE"))
+
+ggplot(clean_other_reason_count, aes(x = "", y = n, fill = PRIM_CONTRIBUTORY_CAUSE)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  ggtitle("Distribution of Causes within 'Other' Group")
+```
+
