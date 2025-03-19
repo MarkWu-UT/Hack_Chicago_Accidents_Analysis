@@ -1,22 +1,19 @@
 <h1>Chicago Traffic Accident Analysis 🚦📊</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+My 24h-Hackathon project focuses on the raw data from the traffic accident records in Chicago, 2001-2024. I performed data cleaning, visualization, and statistical analysis to uncover key insights, trends, and patterns in accident occurrences. The analysis includes geospatial mapping, time-series trends, and contributing factors to accidents.   
 
-This project is an Exploratory Data Analysis (EDA) hackathon focusing on traffic accidents in Chicago. Using Python and R, I performed data cleaning, visualization, and statistical analysis to uncover key insights, trends, and patterns in accident occurrences. The analysis includes geospatial mapping, time-series trends, and contributing factors to accidents.
+<h2>Quick Takeaway</h2>
 
-My 24h-Hackathon project focuses on the raw data from the traffic accident records in Chicago, 2001-2024. 
-<br />
+- <b>Cause Type: Accidents are mainly due to driver's behaviors during. For other reasons, we also see environmental triggers like sudden move of animals, evasive actions from animals, objects and nonmotorists.</b>
+- <b>Locations: Clear pattern/segmentation by the Old Route 66 across the city: Higher accident density from the upper city, and from the downtown area.
+</b>
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
+- <b>R</b> 
+- <b>Python</b>
 
 <h2>Program walk-through:</h2>
 
